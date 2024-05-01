@@ -20,9 +20,9 @@ $sql = "INSERT INTO member (member_name, acc, pwd, insert_date, update_date)
         VALUES ('$member_name', '$acc', '$pwd', '$tmp_date', '$tmp_date')";
 
 if (mysqli_query($link, $sql)) {
-    echo '数据插入成功';
+    echo '數據輸入成功';
 } else {
-    echo '数据插入失败: ' . mysqli_error($link);
+    echo '數據輸入失敗: ' . mysqli_error($link);
 }
 
 mysqli_close($link);
