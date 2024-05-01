@@ -3,7 +3,7 @@
 $link = mysqli_connect('localhost:33060', 'root', 'root', 'car');
 
 if (!$link) {
-    echo '数据库连接失败';
+    echo '數據庫連接失敗';
     exit;
 }
 
